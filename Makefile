@@ -28,7 +28,7 @@ requirements:
 	venv/bin/pip install -r requirements/requirements.txt
 
 load_data:
-	python manage.py loaddata data.json
+	venv/bin/python3.8 manage.py loaddata data.json
 
 run:
 	venv/bin/python3.8 manage.py runserver
