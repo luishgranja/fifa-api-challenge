@@ -1,0 +1,909 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "players",
+        "model": "position"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "players",
+        "model": "player"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "teams",
+        "model": "staffrole"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "teams",
+        "model": "team"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "fields": {
+        "app_label": "teams",
+        "model": "staffmember"
+    }
+},
+{
+    "model": "players.position",
+    "pk": "12045e81-6fee-46b5-9823-4cb7925b8d27",
+    "fields": {
+        "created_at": "2022-03-31T17:20:07.839Z",
+        "modified_at": "2022-03-31T17:20:07.839Z",
+        "name": "Wing-back",
+        "description": "The wing-back role is one of the most physically demanding positions in modern football. Wing-backs are often more adventurous than traditional full-backs and are expected to provide width, especially in teams without wingers. A wing-back needs to be of exceptional stamina, be able to provide crosses upfield and then defend effectively against an opponent's attack down the flanks. A defensive midfielder is usually fielded to cover the advances of an opponent's wing-back.[34]"
+    }
+},
+{
+    "model": "players.position",
+    "pk": "524a5a27-0c0d-4ca4-a1df-246e9029b183",
+    "fields": {
+        "created_at": "2022-03-31T17:20:56.437Z",
+        "modified_at": "2022-03-31T17:20:56.437Z",
+        "name": "Striker",
+        "description": "Are the players who are positioned nearest to the opposing team's goal. The primary responsibility of forwards is to score goals and to create scoring chances for other players. Forwards may also contribute defensively by harrying opposition defenders and goalkeepers whilst not in possession."
+    }
+},
+{
+    "model": "players.position",
+    "pk": "866bb63e-9442-4be7-b6aa-cb07c734de7c",
+    "fields": {
+        "created_at": "2022-03-31T17:19:50.067Z",
+        "modified_at": "2022-03-31T17:19:50.067Z",
+        "name": "Centre-back",
+        "description": "The job of the centre-back,[8][9] (or central defender[10]) (historically called a centre-half[11][12]) is to stop opposing players, particularly the strikers, from scoring, and to bring the ball out from their penalty area. As their name suggests, they play in a central position."
+    }
+},
+{
+    "model": "players.position",
+    "pk": "9e1d056f-dfeb-4599-9bf5-2691640775cf",
+    "fields": {
+        "created_at": "2022-03-31T17:20:23.662Z",
+        "modified_at": "2022-03-31T17:20:23.662Z",
+        "name": "Central midfielder",
+        "description": "Central midfielders provide a link between defence and attack, fulfilling a number of duties and operating primarily in the middle third of the pitch. They will support their team's attacking play and endeavour to win the ball back on defense. A central midfielder is often an important initiator of attacks and can be sometimes described as a \"playmaker.\""
+    }
+},
+{
+    "model": "players.position",
+    "pk": "ccd039ec-eaa6-4a08-9b28-f2371ac1a16f",
+    "fields": {
+        "created_at": "2022-03-31T17:19:17.041Z",
+        "modified_at": "2022-03-31T17:19:17.041Z",
+        "name": "Goalkeeper",
+        "description": "Goalkeeper is the most defensive position in football. The goalkeeper's main job is to stop the other team from scoring by catching, palming or punching the ball from shots, headers and crosses. Unlike their teammates, goalkeepers typically remain in and around their own penalty area for most of the game. As a result, goalkeepers have a better view of the pitch and often give advice to their defence when the other team is on the attack or during set pieces."
+    }
+},
+{
+    "model": "players.player",
+    "pk": "1ef1cdd1-d031-4ead-990f-ce652f25236f",
+    "fields": {
+        "created_at": "2022-03-31T17:30:17.174Z",
+        "modified_at": "2022-03-31T17:30:17.174Z",
+        "picture": "",
+        "first_name": "David",
+        "last_name": "Ospina",
+        "date_of_birth": "1988-08-31",
+        "position": "ccd039ec-eaa6-4a08-9b28-f2371ac1a16f",
+        "number": 99,
+        "is_starter": true,
+        "team": "3e3fdf26-b9ab-4e4a-9a7d-599762f4e2f9"
+    }
+},
+{
+    "model": "players.player",
+    "pk": "371f1c06-f043-45d4-9295-b444c0b4a7e7",
+    "fields": {
+        "created_at": "2022-03-31T17:31:17.134Z",
+        "modified_at": "2022-03-31T17:31:17.134Z",
+        "picture": "",
+        "first_name": "Davinson",
+        "last_name": "Sánchez",
+        "date_of_birth": "1996-06-12",
+        "position": "866bb63e-9442-4be7-b6aa-cb07c734de7c",
+        "number": 23,
+        "is_starter": true,
+        "team": "3e3fdf26-b9ab-4e4a-9a7d-599762f4e2f9"
+    }
+},
+{
+    "model": "players.player",
+    "pk": "4beba389-1117-4a07-8ac1-d7de98ea23b8",
+    "fields": {
+        "created_at": "2022-03-31T17:23:24.395Z",
+        "modified_at": "2022-03-31T17:23:24.395Z",
+        "picture": "",
+        "first_name": "Jordan",
+        "last_name": "Lukaku",
+        "date_of_birth": "1994-07-25",
+        "position": "12045e81-6fee-46b5-9823-4cb7925b8d27",
+        "number": 3,
+        "is_starter": true,
+        "team": "f802e9a0-35e8-410a-8306-6eadddbf3d85"
+    }
+},
+{
+    "model": "players.player",
+    "pk": "56ede74d-a35d-45fd-80c1-95544625de2b",
+    "fields": {
+        "created_at": "2022-03-31T17:32:37.365Z",
+        "modified_at": "2022-03-31T17:32:37.365Z",
+        "picture": "",
+        "first_name": "Luis",
+        "last_name": "Díaz",
+        "date_of_birth": "1997-01-13",
+        "position": "524a5a27-0c0d-4ca4-a1df-246e9029b183",
+        "number": 14,
+        "is_starter": true,
+        "team": "3e3fdf26-b9ab-4e4a-9a7d-599762f4e2f9"
+    }
+},
+{
+    "model": "players.player",
+    "pk": "59fa831e-b081-435b-b276-e2efc91c8029",
+    "fields": {
+        "created_at": "2022-03-31T17:22:45.569Z",
+        "modified_at": "2022-03-31T17:22:45.569Z",
+        "picture": "",
+        "first_name": "Thomas",
+        "last_name": "Meunier",
+        "date_of_birth": "1991-09-12",
+        "position": "866bb63e-9442-4be7-b6aa-cb07c734de7c",
+        "number": 2,
+        "is_starter": true,
+        "team": "f802e9a0-35e8-410a-8306-6eadddbf3d85"
+    }
+},
+{
+    "model": "players.player",
+    "pk": "6e323c09-a56f-4852-9ab0-359b3bfc8209",
+    "fields": {
+        "created_at": "2022-03-31T17:31:42.565Z",
+        "modified_at": "2022-03-31T17:31:42.565Z",
+        "picture": "",
+        "first_name": "Frank",
+        "last_name": "Fabra",
+        "date_of_birth": "1991-06-22",
+        "position": "12045e81-6fee-46b5-9823-4cb7925b8d27",
+        "number": 18,
+        "is_starter": false,
+        "team": "3e3fdf26-b9ab-4e4a-9a7d-599762f4e2f9"
+    }
+},
+{
+    "model": "players.player",
+    "pk": "8f24c38c-1a18-4a29-ad67-a8eeb17b935e",
+    "fields": {
+        "created_at": "2022-03-31T17:23:46.907Z",
+        "modified_at": "2022-03-31T17:23:46.907Z",
+        "picture": "",
+        "first_name": "Axel",
+        "last_name": "Witsel",
+        "date_of_birth": "1989-01-12",
+        "position": "9e1d056f-dfeb-4599-9bf5-2691640775cf",
+        "number": 10,
+        "is_starter": false,
+        "team": "f802e9a0-35e8-410a-8306-6eadddbf3d85"
+    }
+},
+{
+    "model": "players.player",
+    "pk": "acfbe07f-3523-406c-b306-f5003d97aba9",
+    "fields": {
+        "created_at": "2022-03-31T17:32:06.180Z",
+        "modified_at": "2022-03-31T17:32:06.180Z",
+        "picture": "",
+        "first_name": "Wilmar",
+        "last_name": "Barrios",
+        "date_of_birth": "1993-09-16",
+        "position": "9e1d056f-dfeb-4599-9bf5-2691640775cf",
+        "number": 5,
+        "is_starter": true,
+        "team": "3e3fdf26-b9ab-4e4a-9a7d-599762f4e2f9"
+    }
+},
+{
+    "model": "players.player",
+    "pk": "d0da02c9-0aca-45ce-a471-71a42553dcbe",
+    "fields": {
+        "created_at": "2022-03-31T17:21:49.838Z",
+        "modified_at": "2022-03-31T17:21:49.838Z",
+        "picture": "",
+        "first_name": "Thibaut",
+        "last_name": "Courtois",
+        "date_of_birth": "1988-03-06",
+        "position": "ccd039ec-eaa6-4a08-9b28-f2371ac1a16f",
+        "number": 1,
+        "is_starter": true,
+        "team": "f802e9a0-35e8-410a-8306-6eadddbf3d85"
+    }
+},
+{
+    "model": "players.player",
+    "pk": "de43299e-2cf8-4370-bc05-1b95b739ca61",
+    "fields": {
+        "created_at": "2022-03-31T17:24:10.337Z",
+        "modified_at": "2022-03-31T17:24:10.338Z",
+        "picture": "",
+        "first_name": "Romelu",
+        "last_name": "Lukaku",
+        "date_of_birth": "1993-04-13",
+        "position": "524a5a27-0c0d-4ca4-a1df-246e9029b183",
+        "number": 9,
+        "is_starter": true,
+        "team": "f802e9a0-35e8-410a-8306-6eadddbf3d85"
+    }
+},
+{
+    "model": "teams.team",
+    "pk": "3e3fdf26-b9ab-4e4a-9a7d-599762f4e2f9",
+    "fields": {
+        "created_at": "2022-03-31T17:16:11.180Z",
+        "modified_at": "2022-03-31T17:16:11.180Z",
+        "name": "Colombia",
+        "picture": "",
+        "badge": ""
+    }
+},
+{
+    "model": "teams.team",
+    "pk": "f802e9a0-35e8-410a-8306-6eadddbf3d85",
+    "fields": {
+        "created_at": "2022-03-31T17:13:25.120Z",
+        "modified_at": "2022-03-31T17:13:25.120Z",
+        "name": "Belgium",
+        "picture": "",
+        "badge": ""
+    }
+},
+{
+    "model": "teams.staffrole",
+    "pk": "7f474399-a084-490c-b3c0-5e6bea1cc820",
+    "fields": {
+        "created_at": "2022-03-31T17:10:21.097Z",
+        "modified_at": "2022-03-31T17:10:21.097Z",
+        "name": "assistant coach",
+        "description": "Supports the head or main coach, ensures that equipment and facilities are maintained, and performs administrative duties."
+    }
+},
+{
+    "model": "teams.staffrole",
+    "pk": "92193e1e-76e8-4fb9-b87f-0d9f540adea7",
+    "fields": {
+        "created_at": "2022-03-31T17:11:38.060Z",
+        "modified_at": "2022-03-31T17:11:38.060Z",
+        "name": "doctor",
+        "description": "Is a health professional who practices medicine, which is concerned with promoting, maintaining or restoring health through the study, diagnosis, prognosis and treatment of disease, injury, and other physical and mental impairments."
+    }
+},
+{
+    "model": "teams.staffrole",
+    "pk": "cdefcf6c-eab8-430b-91e9-8a7c04046413",
+    "fields": {
+        "created_at": "2022-03-31T17:09:50.134Z",
+        "modified_at": "2022-03-31T17:09:50.134Z",
+        "name": "coach",
+        "description": "Someone who trains a person or team of people in a particular sport."
+    }
+},
+{
+    "model": "teams.staffmember",
+    "pk": "36584db8-30f4-4e05-949e-ca1414e96271",
+    "fields": {
+        "created_at": "2022-03-31T17:17:25.099Z",
+        "modified_at": "2022-03-31T17:17:25.099Z",
+        "first_name": "Bernardo",
+        "last_name": "Redin",
+        "date_of_birth": "1950-09-23",
+        "nationality": "CO",
+        "role": "7f474399-a084-490c-b3c0-5e6bea1cc820",
+        "team": "3e3fdf26-b9ab-4e4a-9a7d-599762f4e2f9"
+    }
+},
+{
+    "model": "teams.staffmember",
+    "pk": "6f1fe31f-97e5-456b-9a41-1916d840d02d",
+    "fields": {
+        "created_at": "2022-03-31T17:14:16.368Z",
+        "modified_at": "2022-03-31T17:14:16.368Z",
+        "first_name": "Roberto",
+        "last_name": "Martínez",
+        "date_of_birth": "1973-07-13",
+        "nationality": "ES",
+        "role": "cdefcf6c-eab8-430b-91e9-8a7c04046413",
+        "team": "f802e9a0-35e8-410a-8306-6eadddbf3d85"
+    }
+},
+{
+    "model": "teams.staffmember",
+    "pk": "7a43acb9-b178-4901-8c0e-715d6ee9f19f",
+    "fields": {
+        "created_at": "2022-03-31T17:15:23.017Z",
+        "modified_at": "2022-03-31T17:15:23.017Z",
+        "first_name": "Geert",
+        "last_name": "Declercq",
+        "date_of_birth": "1963-12-15",
+        "nationality": "BE",
+        "role": "92193e1e-76e8-4fb9-b87f-0d9f540adea7",
+        "team": "f802e9a0-35e8-410a-8306-6eadddbf3d85"
+    }
+},
+{
+    "model": "teams.staffmember",
+    "pk": "9414e675-a0e0-4aa2-bc6d-81d132a72bc5",
+    "fields": {
+        "created_at": "2022-03-31T17:16:48.872Z",
+        "modified_at": "2022-03-31T17:16:48.872Z",
+        "first_name": "Reinaldo",
+        "last_name": "Rueda",
+        "date_of_birth": "1951-02-02",
+        "nationality": "CO",
+        "role": "cdefcf6c-eab8-430b-91e9-8a7c04046413",
+        "team": "3e3fdf26-b9ab-4e4a-9a7d-599762f4e2f9"
+    }
+},
+{
+    "model": "teams.staffmember",
+    "pk": "abee28be-3068-470b-9ac9-b4bc5b9c85b9",
+    "fields": {
+        "created_at": "2022-03-31T17:17:41.815Z",
+        "modified_at": "2022-03-31T17:17:41.815Z",
+        "first_name": "Carlos",
+        "last_name": "Ulloa",
+        "date_of_birth": "1943-12-31",
+        "nationality": "CO",
+        "role": "92193e1e-76e8-4fb9-b87f-0d9f540adea7",
+        "team": "3e3fdf26-b9ab-4e4a-9a7d-599762f4e2f9"
+    }
+},
+{
+    "model": "teams.staffmember",
+    "pk": "c71a57f5-24fd-4899-af1b-a88970512a37",
+    "fields": {
+        "created_at": "2022-03-31T17:14:56.541Z",
+        "modified_at": "2022-03-31T17:14:56.541Z",
+        "first_name": "Thomas",
+        "last_name": "Vermaelen",
+        "date_of_birth": "1985-10-14",
+        "nationality": "BE",
+        "role": "7f474399-a084-490c-b3c0-5e6bea1cc820",
+        "team": "f802e9a0-35e8-410a-8306-6eadddbf3d85"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add position",
+        "content_type": [
+            "players",
+            "position"
+        ],
+        "codename": "add_position"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change position",
+        "content_type": [
+            "players",
+            "position"
+        ],
+        "codename": "change_position"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete position",
+        "content_type": [
+            "players",
+            "position"
+        ],
+        "codename": "delete_position"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view position",
+        "content_type": [
+            "players",
+            "position"
+        ],
+        "codename": "view_position"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add player",
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "codename": "add_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change player",
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "codename": "change_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete player",
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "codename": "delete_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view player",
+        "content_type": [
+            "players",
+            "player"
+        ],
+        "codename": "view_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add staff role",
+        "content_type": [
+            "teams",
+            "staffrole"
+        ],
+        "codename": "add_staffrole"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change staff role",
+        "content_type": [
+            "teams",
+            "staffrole"
+        ],
+        "codename": "change_staffrole"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete staff role",
+        "content_type": [
+            "teams",
+            "staffrole"
+        ],
+        "codename": "delete_staffrole"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view staff role",
+        "content_type": [
+            "teams",
+            "staffrole"
+        ],
+        "codename": "view_staffrole"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add team",
+        "content_type": [
+            "teams",
+            "team"
+        ],
+        "codename": "add_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change team",
+        "content_type": [
+            "teams",
+            "team"
+        ],
+        "codename": "change_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete team",
+        "content_type": [
+            "teams",
+            "team"
+        ],
+        "codename": "delete_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view team",
+        "content_type": [
+            "teams",
+            "team"
+        ],
+        "codename": "view_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add staff member",
+        "content_type": [
+            "teams",
+            "staffmember"
+        ],
+        "codename": "add_staffmember"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change staff member",
+        "content_type": [
+            "teams",
+            "staffmember"
+        ],
+        "codename": "change_staffmember"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete staff member",
+        "content_type": [
+            "teams",
+            "staffmember"
+        ],
+        "codename": "delete_staffmember"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view staff member",
+        "content_type": [
+            "teams",
+            "staffmember"
+        ],
+        "codename": "view_staffmember"
+    }
+}
+]
